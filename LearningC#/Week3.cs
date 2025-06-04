@@ -103,9 +103,17 @@ namespace Conditions
 
         public void arrays()
         {
-            string[] cars;
+            string[] cars = {"volvo", "Mazda", "BMW"};
 
-            cars = {"volvo", ""};
+            Console.WriteLine(cars[1]);
+
+            // Sort an int
+            int[] myNumbers = { 5, 1, 8, 9 };
+            Array.Sort(myNumbers);
+            foreach (int i in myNumbers)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }

@@ -43,6 +43,7 @@ namespace LearningC_
             W3.whileLoop();
             W3.forLoop();
             W3.forEachLoop();
+            W3.arrays();
         }
     }
 }
